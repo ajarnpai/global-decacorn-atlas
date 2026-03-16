@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "site": "global-decacorn",
+    "public": "public",
+    "rewrites": [
+      {
+        "source": "**",
+        "run": {
+          "serviceId": "data-analytics-dashboard",
+          "region": "asia-southeast1"
+        }
+      }
+    ]
+  }
+}
